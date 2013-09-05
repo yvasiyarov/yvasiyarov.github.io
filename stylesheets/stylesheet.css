@@ -477,3 +477,21 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+a.social, a.social:hover {
+    background: url(/images/social-06.png) 50% 0% no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.twitter {
+    background-position: -132px -36px !important;
+}
+.linkedin {
+    background-position: -165px -36px !important;
+}
+.facebook {
+    background-position: -4px -2px !important;
+}
